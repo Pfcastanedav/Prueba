@@ -1,0 +1,4 @@
+name,model_type,metric_type,metric_value,train_time,single_prediction_time
+1_Default_LightGBM,LightGBM,f1,0.9970135151095888,341.56,0.084
+2_Xgboost,Xgboost,f1,0.9965903720207954,196.33,0.2666
+Ensemble,Ensemble,f1,0.9971485936999106,31.25,0.4946
