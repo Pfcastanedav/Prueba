@@ -1,6 +1,0 @@
-name,model_type,metric_type,metric_value,train_time,single_prediction_time
-1_Default_LightGBM,LightGBM,accuracy,0.997355248412402,154.61,0.0784
-2_Default_Xgboost,Xgboost,accuracy,0.9970862906238327,177.11,0.4398
-3_LightGBM,LightGBM,accuracy,0.997355248412402,114.48,0.0626
-4_LightGBM,LightGBM,accuracy,0.9972954800149421,72.32,0.0457
-Ensemble,Ensemble,accuracy,0.997355248412402,15.24,0.0666
