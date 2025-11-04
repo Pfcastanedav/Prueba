@@ -62,7 +62,6 @@ División en conjuntos de entrenamiento (75%) y prueba (25%).
 Entrenamiento con AutoML:
 
 Se emplea la librería supervised.automl.AutoML con los algoritmos:
-
 Random Forest, XGBoost, CatBoost, Neural Network
 
 Configuración:
@@ -75,36 +74,26 @@ validation_strategy={"validation_type": "kfold", "k_folds": 5}
 
 Evaluación del modelo:
 
-Métricas calculadas:
-
-Accuracy, Recall, ROC-AUC
-
-Generación de reporte automático con:
-
-automl.report()
+Métricas calculadas: Accuracy, Recall, ROC-AUC
+Generación de reporte automático con:  automl.report()
 
 
 Resultados esperados:
 
 Detección de viajes con comportamiento riesgoso.
-
 Interpretación de variables más influyentes.
-
 Exportación de predicciones y probabilidades de riesgo.
 
-
-
-Antes de ejecutar el proyecto, asegúrate de instalar las dependencias necesarias:
-
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn supervised
+Antes de ejecutar el proyecto, asegúrate de instalar las dependencias necesarias: pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn supervisedy 
+o instala los requirements.txt, el .py se ejecuta en la version python 3.12.4
 
 PARA EJECUTAR:
 Todo debe estar en el mismo directorio que los scripts, la primera parte genera el archivo driver_behavior_features.csv o df_model
 haciendo uso de este entrena el modelo y genera el reporte de resultados.
 
-📊 Salidas esperadas
 
-driver_behavior_features.csv: dataset con variables derivadas.
+Resultados:
+driver_behavior_features.csv: dataset con variables seleccionadas.
 Filter_Model_8 carpeta con el modelo final
 
 Filter_Model_8/: carpeta con modelos entrenados y reportes.
